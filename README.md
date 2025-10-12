@@ -58,7 +58,7 @@ Waydroid brings Android apps to Linux desktops and servers, but installation var
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mega-waydroid-installer.git
+   git clone https://github.com/OverLord-Git/waydroid.git
    cd mega-waydroid-installer
    ```
 
