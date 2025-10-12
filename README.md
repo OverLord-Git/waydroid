@@ -115,11 +115,25 @@ Please adhere to Bash best practices: Use `set -euo pipefail`, comment code bloc
 [MIT License](LICENSE) - Feel free to use, modify, and distribute.
 
 ## Acknowledgments
-
-- Waydroid Team for the core project.
-- supechicken for Android TV builds and ChromeOS tools.
-- n1lby73 for universal fallback.
-- ublue-os for Distrobox images.
-- Anbox Team for legacy support.
-
-Star the repo if it helped! Questions? Open an issue.
+Core Contributors & Projects
+Waydroid Team - The foundation of containerized Android on Linux. Their work with LXC, binderfs, and Wayland integration powers everything. waydroid.io
+casualsnek - Creator of waydroid_script, the essential post-installation toolkit for GAPPS, Magisk root, multi-window mode, and advanced Android tweaks. This script's interactive CLI and modular design make customizing Waydroid sessions elegant and powerful. Special thanks for maintaining compatibility across Android versions and providing the community with reliable tooling for real-world usage. GitHub: casualsnek/waydroid_script
+supechicken - Pioneering Android TV builds with VA-API hardware acceleration and Widevine L3 DRM support. Their ChromeOS/Crostini kernel patches and LXD automation scripts enable Waydroid on unconventional platforms. The Android TV images bring streaming and gaming capabilities to Linux desktops. GitHub: supechicken
+iEscapedVim - Arch Linux Waydroid installer that handles AUR dependencies, kernel modules, and session management with surgical precision. Essential for rolling release users. GitHub: iEscapedVim/Waydroid-Installer
+ryanrudolfoba - SteamOS/Steam Deck specialist who engineered Game Mode integration and toolbox compatibility. Their installer makes Android gaming on handheld Linux viable. GitHub: ryanrudolfoba/SteamOS-Waydroid-Installer
+Container & Virtualization Experts
+ublue-os Team - Distrobox Waydroid images and OCI container optimization for immutable systems like Silverblue and Vanilla OS. Their pre-configured environments with GPU passthrough simplify modern deployments.
+89luca89 - Distrobox creator, enabling seamless distro-within-distro execution with native app integration and rootless container management.
+Anbox Team - Legacy Android container project that paved the way for Waydroid. Their binder/ashmem kernel modules remain foundational.
+Community & Documentation
+Runa-Chin - openSUSE Tumbleweed/Slowroll repositories and AppArmor configuration guides.
+onomatopellan - WSL2 kernel compilation guide and .wslconfig optimization.
+tdcosta100 - WSLg full desktop setup with GNOME Shell nested mode.
+n1lby73 - Universal fallback installer for unsupported distributions.
+Quackdoc - GPU selection scripts and device spoofing tools for compatibility.
+sickcodes - Droid-NDK-Extractor for ARM translation on x86 systems.
+Special Thanks
+To the countless forum posters, Reddit users, and Discord contributors who tested edge cases, reported bugs, and shared workarounds. Your real-world feedback shaped this script's robustness across hardware generations and distro philosophies.
+This project stands on the shoulders of open-source giants. Without their dedication to compatibility, documentation, and innovation, running Android on Linux would still be a dark art rather than accessible engineering.
+Made with ❤️ for the Linux Android community
+Stars, forks, and PRs welcome!
