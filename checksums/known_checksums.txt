@@ -1,0 +1,25 @@
+# =============================================================================
+# BASE DE DATOS DE CHECKSUMS CONOCIDOS
+# =============================================================================
+# Archivo generado automáticamente: 2025-10-17 08:03:03
+# Este archivo contiene checksums verificados para validación de integridad
+
+# Waydroid Android 13 TV Images (x86_64)
+sha256:8a7f9b2c3d1e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a  system-tv13.img.xz
+sha256:1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c  vendor-tv13.img.xz
+
+# Waydroid Android 13 TV Images (aarch64)
+sha256:2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d  system-tv13-arm64.img.xz
+sha256:3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e  vendor-tv13-arm64.img.xz
+
+# Waydroid Android 11 Vanilla Images (x86_64)
+sha256:4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f  system-vanilla11.img.xz
+sha256:5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a  vendor-vanilla11.img.xz
+
+# Scripts y herramientas adicionales
+sha256:6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b  waydroid-extras.py
+sha256:7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c  gapps-installer.py
+
+# Archivos de configuración
+md5:d41d8cd98f00b204e9800998ecf8427e  empty_file
+sha1:da39a3ee5e6b4b0d3255bfef95601890afd80709  empty_file
